@@ -1,6 +1,4 @@
 FROM tomcat:8.5
-RUN mkdir -p /home/app
-COPY ./* /home/app/
-WORKDIR /home/app
-
+ADD /var/lib/jenkins/workspace/Projet/target/petclinic.war /usr/local/tomcat/webapps/
 EXPOSE 8080
+CMD ["catalina.sh", "run"]
