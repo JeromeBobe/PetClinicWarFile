@@ -473,7 +473,7 @@
                 <db.script>mysql</db.script>
                 <jpa.database>MYSQL</jpa.database>
                 <jdbc.driverClassName>com.mysql.cj.jdbc.Driver</jdbc.driverClassName>
-                <jdbc.url>jdbc:mysql://34.152.40.157:3306/petclinic?useUnicode=true</jdbc.url>
+                <jdbc.url>jdbc:mysql://34.95.22.123:3306/petclinic?useUnicode=true</jdbc.url>
                 <jdbc.username>poei_binome3</jdbc.username>
                 <jdbc.password>petshop</jdbc.password>
             </properties>
